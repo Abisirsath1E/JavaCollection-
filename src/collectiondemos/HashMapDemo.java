@@ -36,7 +36,7 @@ public class HashMapDemo {
 		
 		System.out.println(m.isEmpty()); //false
 		
-		System.out.println(m.keySet());  // returns all the keys as Set [101, 102, 103, 104, 105]
+		System.out.println("0"+m.keySet());  // returns all the keys as Set [101, 102, 103, 104, 105]
 		
 		for(Object i:m.keySet())
 		{
